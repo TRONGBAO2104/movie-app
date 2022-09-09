@@ -47,7 +47,7 @@ export default function MovieSlideCard({ movie }) {
     setOpen(false);
   };
   return (
-    <Card sx={{ maxWidth: 250 }}>
+    <Card sx={{ maxWidth: 250, height: "100%" }}>
       <CardActionArea>
         <CardMedia
           component="img"

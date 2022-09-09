@@ -52,7 +52,7 @@ export default function MovieCard({ movie }) {
   };
 
   return (
-    <Card sx={{ maxWidth: 250 }}>
+    <Card sx={{ width: "100%" }}>
       <CardActionArea>
         <CardMedia
           component="img"

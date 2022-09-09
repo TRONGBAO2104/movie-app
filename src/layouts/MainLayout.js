@@ -13,8 +13,6 @@ function MainLayout() {
 
       {/* I dont realy know what effect it come Lol */}
       <Box sx={{ flexGrow: 1 }} />
-
-      {/* <Footer /> */}
     </Stack>
   );
 }

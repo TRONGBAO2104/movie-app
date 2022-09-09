@@ -9,15 +9,13 @@ import { Box } from "@mui/material";
 function HomePage() {
   return (
     <>
-      <Box>
-        <IntroVideo />
-      </Box>
+      <IntroVideo />
 
       <Box sx={{ position: "relative", top: -120 }}>
         <MoviesSlideList />
       </Box>
 
-      <Box sx={{ position: "relative", top: -80 }}>
+      <Box sx={{ position: "relative", top: -80, pr: 2 }}>
         <MainMoviesList />
       </Box>
     </>
