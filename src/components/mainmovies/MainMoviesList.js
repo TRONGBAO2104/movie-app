@@ -8,7 +8,6 @@ import MovieCard from "./MovieCard";
 import {
   Box,
   CircularProgress,
-  Container,
   Divider,
   Grid,
   Stack,
