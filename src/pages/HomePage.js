@@ -1,0 +1,27 @@
+import React from "react";
+
+// components
+import IntroVideo from "../components/IntroVideo";
+import MoviesSlideList from "../components/intromovies/MoviesSlideList";
+import MainMoviesList from "../components/mainmovies/MainMoviesList";
+import { Box } from "@mui/material";
+
+function HomePage() {
+  return (
+    <>
+      <Box>
+        <IntroVideo />
+      </Box>
+
+      <Box sx={{ position: "relative", top: -120 }}>
+        <MoviesSlideList />
+      </Box>
+
+      <Box sx={{ position: "relative", top: -80 }}>
+        <MainMoviesList />
+      </Box>
+    </>
+  );
+}
+
+export default HomePage;
