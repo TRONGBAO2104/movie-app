@@ -15,4 +15,4 @@
 
 **Using:** ReactJS, Material UI, React Router, Axios
 
-**Responsive web desing:** Multiple screen sizes for Mobile, Tablet, Laptop, PC
+**Responsive web design:** Multiple screen sizes for Mobile, Tablet, Laptop, PC
